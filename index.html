@@ -1,0 +1,281 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITL-website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+        <ul>
+            <a href="#"><img class="logo" src="images/SIT-logo.svg"></a>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Service</a></li>
+            <li class="hideOnMobile"><a href="#">Products</a></li>
+            <li class="hideOnMobile"><a href="#">Contacts</a></li>
+            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" hover="#FECDA6" viewBox="0 -960 960 960" width="26" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        
+    </nav>
+
+     <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+     </script>  
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <title>SITL-website</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-md bg-black navbar fixed-top">
+<div class="container-fluid">
+  <a class="navbar-brand" href="#"><img src="images/SIT-logo.svg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#service">Services</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="#product">Products</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contacts</a>
+      </li>    
+    </ul>
+  </div>  
+</div>
+</nav>
+</header>
+<div class="container-fluid" id="Home">
+<div class="container-one" id="Home">
+  <h2 class="build">We build for the <span class="future">future</span> to come.</h2>
+  <p class="text-one">We are poised to delivering tailor-made technological solutions and digital 
+    transformations <br> that empowers your business for rapid growth and bring your idea 
+    to live through advance <br>software, website and mobile app development.</p>
+
+    <div class="center-button">
+        <button class="button">Request Quote</button>
+    </div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="container-two" id="about">
+    <h2 class="about-text">About</h2>
+
+    <section class="columns">
+    
+        <div class="column">
+            <img class="icon"  src="images/Mission icon.svg" alt="Mission icon.svg">
+            <h2 class="topic">Mission</h2>
+            <p class="topic-text">Deploying alternative technological solutions driven by innovation 
+               to build tools for teams and businesses to grow.</p>
+           </div>
+           <div class="column">
+            <img class="icon" src="images/Vision icon.svg" alt="Vision icon.svg">
+            <h2 class="topic">Vision</h2>
+            <p class="topic-text">To redefine digital technology geared at improving quality of life 
+                and solution delivery for individuals and businesses in Africa.</p>
+           </div>
+           <div class="column">
+            <img class="icon"  src="images/Value icon.svg" alt="Value ivpn.svg">
+            <h2 class="topic">Core Value</h2>
+            <p class="topic-text">Innovation, Excellence, Reliability.</p>
+           </div>
+    </section>
+
+      
+     <p class="skye-text">Skye Innovation Technology Limited builds and provides innovative tools for businesses and teams to grow, 
+        through alternative<br> advanced digital technology, engineered in software, mobile app and website development, 
+        offering solutions in various sectors <br>of economy across Africa, ranging from Financial services (Payments,
+        Blockchain etc), Real Estate (Smart Homes, IOT etc), Health <br> & Agriculture (Smart Farming, AI etc). Request 
+        a quote and bring your ideas to live.</p>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container-three" id="service">
+        <h2 class="service-text">Services</h2>
+
+        <section class="columns-service">
+    
+            <div class="column-service-oneA">
+                 <div class="box"></div>
+                <img class="service-img-one" src="images/service-one.png" alt="service-one">
+                 
+            </div>
+            <div class="column-service-oneB">
+                
+                <h2 class="web-text">Web Development</h2>
+                <p class="oneB-text">Request a quote for a fully functional website that creates an online presence and drive visibility for 
+                    your business growth.</p>
+               </div> 
+
+        </section>
+        <section class="columns-service2">
+            
+            <div class="column-service-twoA">
+                <h2 class="mobile-text">Mobile App Development</h2>
+                <p class="twoB-text"> Request a quote for a tailor-made mobile app and softwares, engineered to improve your value 
+                    delivery and optimize your operational process.</p>
+            </div>
+            <div class="column-service-twoB">
+                <div class="box"></div>
+                <img class="service-img-two" src="images/service-two.png" alt="service-two">
+               </div> 
+        </section>
+
+        <section class="columns-service3">
+    
+            <div class="column-service-threeA">
+                <div class="box"></div>
+                <img class="service-img-three" src="images/service-three.png" alt="service-three">
+            </div>
+            <div class="column-service-threeB">
+                <h2 class="IT-text">IT Consultations</h2>
+                <p class="threeB-text">Contact us today for cost-effective strategies in IT performance for your 
+                    organization to rely on, to support your business operations.
+                </p>
+               </div> 
+
+        </section>
+      </div>
+        
+</div>
+
+<div class="container-fluid">
+  <div class="container-four" id="product">
+        <h2 class="product-text">Products</h2>
+    <div class="rectangleA">
+    <div class="base-img">
+    <img class="base" src="images/Base-logo.svg" alt="Base-logo.svg">
+    </div>
+    <div class="txt">
+    <p class="base-text">A pan-African cross-border payments & crypto wallet <br> solution. 
+        
+        Transfer Money across border, Trade Crypto <br> and do more (Cards, Loans, Savings)</p>
+
+     <button class="visit">visit</button>
+    </div>
+    
+    <div class="base-img2">
+    <img class="base-phone" src="images/base-phone.png" alt="base-phone.png">
+    </div>
+    
+    </div>
+
+
+    <div class="rectangleB">
+
+        <div class="base-img">
+            <img class="tap-logo" src="images/Tapmoni-Logo.png" alt="tap-logo.svg">
+            </div>
+            <div class="txt">
+            <p class="buy-text">Buy airtime, pay utilities (electricity, data, tv etc) and <br>do more
+             securely with Tapmoni. More than 20000+ <br>customers  are on waiting list of Tapmoni.</p>
+        
+             <button class="come">Coming Soon</button>
+            </div>
+            
+            <div class="tap-img2">
+            <img class="tap-phone" src="images/Tap-phone.png" alt="tap-phone.png">
+            </div>
+
+    </div>
+
+
+
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="last-container" id="contact">
+        <hr class="contact-line">
+          <h2 class="contact-text">Contacts</h2>
+     <div class="contact-section">
+        <div class="contact-info">
+         <div><img src="images/location-tag.svg" alt="location-tag.svg">35 Lekki County Homes, Lekki, Lagos, Nigeria. RC1752867</div>
+         <div><img src="images/message-tag.svg" alt="message-tag.svg">info@skyeinnovationtech.com</div>
+         <div><img src="images/contact-tag.svg" alt="contact-tag.svg">+234 702 616 8034</div>
+        </div>
+       <div class="contact-form">
+        <form class="contact" action="" method="post" > 
+            <input type="text" name="name" class="text-box" placeholder="First Name" required>
+            <input type="text" name="name" class="text-box" placeholder="Last Name" required>
+            <input type="phone" name="phone" class="text-box" placeholder="Phone Number" required>
+            <input type="email" name="email" class="text-box" placeholder="Email Address" required>
+            <input type="Address" name="Address" class="text-box address" placeholder="Address" required>
+            <textarea name="message"rows="5" placeholder="Type your message here..." required></textarea>
+            <input type="submit" name="submit" class="summit-btn" placeholder="Submit" required>
+
+        </form>
+       </div>
+     </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="container-fluid">
+        <div class="footer-container" id="">
+            <hr class="contact-line">
+            <div class="footer-rectangle">
+                   <div class="join-head"> 
+                    <h2 class="join-footer">Join the mailing list</h2>
+                </div>
+                    <p class="enter-footer">Enter your email here***</p>
+                    <hr class="footer-line"> 
+                    <h3 class="sub">Subscribe</h3>
+                </div>
+                <div class="attribution">
+                    <p class="copyright">Copyright © Skye Innovation Technology 2023 All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+
+</footer>
+</body>
+</html>
