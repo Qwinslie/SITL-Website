@@ -10,76 +10,12 @@ body{
     font-family: Raleway;
     overflow-x: hidden;
 }
-/* :root{
-    --gradient: linear-gradient(
-       90% #03989E,  #F46500,
-    );
-} */
 
-/* nav{
-    background-color: #151219;
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.1); 
+.all-container{
+    padding: 0;
+    margin: 0;   
+    overflow-x: hidden;
 }
-
-nav ul {
-    width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: flex;
-    align-items: center;
-}
-
-nav li{
-    height: 80px;
-}
-
-nav a{
-    height: 100%;
-    padding: 0 30px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-}
-
-nav a:hover{
-    color: #FECDA6;
-    transition: 1s;
-}
-
- .logo{
-    margin-left: 104px;
-    margin-right: 203px;
- }
-
-.sidebar{
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    z-index: 999;
-    backdrop-filter: blur (#94d4d6);
-    background-color: #28adb1;
-    box-shadow: -10px 0 10px rgb(94, 86, 86);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.sidebar li{
-    width: 100%;
-}
-.sidebar a{
-    width: 100%;
-}
-
-@media (max-width: 800px){
-    .hideOnMobile{
-        display: none;
-    }
-} */
 
 .container-fluid{
 width: 100%;
@@ -109,7 +45,7 @@ nav li{
 }
 
 nav a{
-    height: 100%;
+    /* height: 100%; */
     text-decoration: none;
     /* display: flex; */
     align-items: center;
@@ -123,7 +59,6 @@ nav a:hover{
 
 .navbar-brand{
     margin: 0 150px 0 170px;
-    
  }
 
  .navbar-toggler-icon{
@@ -1257,20 +1192,40 @@ padding: 3px;
 
 }
 
-@media only screen and (max-width: 414px) {
-    html,body{
+@media (min-width: 319px) and (max-width: 480px) {
+    body{
         width: 100%;
-        min-height: 100vh;
-        margin: 0%;
+        height: 100%;
+        margin: 0;
         padding: 0;
+        overflow-x: hidden;
+        overflow-y: hidden; 
+        -ms-overflow-style: none; 
+        scrollbar-width: none;
+    }
+    
+    .all-container{
+        padding: 0;
+        margin: 0;   
         overflow-x: hidden;
     }
 
     nav ul {
-        float: right;
         width: 100%;
     }
-    nav{
+    .navbar{
         width: 100%;
+
     }
-}
+    .navbar-brand{
+        width: 150px;
+        margin: 0 10px 0 10px;
+        font-size: 20px;
+
+    }
+
+      .navbar.navbar-expand-md.bg-black.fixed-top{
+        width: 390px;
+      }
+
+    }
