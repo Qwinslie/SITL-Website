@@ -1238,7 +1238,7 @@ padding: 3px;
 
       .container-one{
         height: 650px;
-        background:  radial-gradient(ellipse farthest-corner, #151219 95%, #345b5c 3%, #503623 2%)  ;
+        background:  radial-gradient(ellipse farthest-corner, #151219 80%, #345b5c, #503623)  ;
         margin-top: 60px;
       }
     
@@ -1292,7 +1292,7 @@ padding: 3px;
     
     .box{
         width: 150px;
-        height: 250px;
+        height: 245px;
         left: 20px;
     }
 
@@ -1304,11 +1304,18 @@ padding: 3px;
         left: 20px;
     
     }
+
+    .column-service-oneB{
+        margin: 70px 0 0 10px ;
+    }
+    
+    
     
     .web-text{
         font-size: 23px;
         font-weight: 700;
         margin: 0 15px;
+        top: 50px;
     }
     
     
@@ -1320,10 +1327,8 @@ padding: 3px;
         
     }
     .column-service-twoA{
-        top: 20px;
-        width: 305px;
-        height: 410px;
-        margin-left: 30px;
+      margin: 30px 0 0 5px ; 
+      width:200px ;   
     }
     
     .mobile-text{
@@ -1339,25 +1344,130 @@ padding: 3px;
         font-size: 15px;
         margin: 0 15px;
     }
-    
-    /* .column-service-twoB{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        right: 200px;
-    } */
-        
-    
-    /* .service-img-two{
-        position: absolute;
-        width: 280px;
-        height: 400px;
+
+    .service-img-two{
+        width: 155px;
+        height: 250px;
         flex-shrink: 0;
         border-radius: 20px;
-        /* justify-content: space-between; */
-        margin: 0 0 0 100px;
-    } */
+       left: -10px;
+        
+    }
 
+    .service-img-three{
+        width: 155px;
+        height: 250px;
+        flex-shrink: 0;
+        border-radius: 20px;
     
+    }
+
+
+
+    .column-service-threeB{
+        margin: 70px 0 0 20px ;
+    }
+    
+    .IT-text{
+        font-size: 23px;
+        font-weight: 700;
+        margin: 0 15px;
+        top: 50px;
+    }
+    
+    .threeB-text{
+        font-weight: 50;
+        font-size: 15px;
+        margin: 0 15px;
+    }
+    
+
+    .container-four{
+        /* height: 1100px; */
+        /* top: 2900px;
+        display: block; */
+       
+    }
+    
+    /* .product-text{
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px; 
+        margin:50px 0 100px 0;
+        text-align: center;
+    } */
+    
+    .rectangleA{
+      
+       width: 320px;
+       height: 200px;
+    }
+    
+    .base-img{
+        width: 120px;
+        height: 40px;  
+    }
+    .base{
+        width: 100px;
+        height: 30px;
+        margin: 20px 0 0 20px;
+    }
+     .txt{
+        margin: 60px 0 20px -90px;
+        width: 270px;
+    
+     }
+    
+    .base-text{
+    width: 270px;
+    font-size: 12px;
+    line-height: 30px; 
+    }
+    
+    .visit{
+        margin: -15px 0 0 0;
+        font-size: 10px;
+    }
+    
+    
+    .base-img2{
+       display: none;
+    }
+    .base-phone{
+        display:none ;
+    
+    }
+    
+    .rectangleB{
+        width: 320px;
+       height: 200px;
+    }
+        
+    .tap-logo{
+        width: 110px;
+        height: 30px;
+        margin: 20px 0 0 20px;
+    }
+    
+    .buy-text{
+        width: 270px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+        
+    
+    .tap-phone{
+        display: none;
+    }
+    
+    .come{
+        margin: -20px 0 0 0;
+        font-size: 10px;
+     
+    }
+  
+
     }
