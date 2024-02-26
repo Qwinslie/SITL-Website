@@ -1475,7 +1475,9 @@ padding: 3px;
 
 
 .contact-section{
-    margin: 50px 20px 0 -80px;
+    display: block;
+    margin: 170px 0 30px 100px;
+    
   /* width: 100%;
   display: flex;
   justify-content: center;
@@ -1485,7 +1487,7 @@ padding: 3px;
 .contact-info{
    
     max-width: 250px;
-    padding-left:100px ;
+    padding-left:0px ;
     line-height:40px;
     font-size: 8px;
     margin-top: -150px;
